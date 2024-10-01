@@ -1,0 +1,255 @@
+:root{
+    --cor-primaria: #fff
+    --cor-primaria-background:#252525
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+section {
+    margin-top: 80px;
+}
+
+/* Conteudo do header */
+
+.coffee-titulo{
+    transition: 0.3s ease;
+}
+
+.coffee-titulo :hover{
+    
+}
+
+.conteudo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 0 50px;
+    background-color: #252525;
+    color: #fff;
+    position: fixed;
+}
+
+.conteudo-header > span {
+    font-size: 36px;
+}
+ 
+.divpesquisa{
+    display: flex;
+    gap: 2rem;
+    margin-left: 45%;
+}
+.lupa{
+    height: 20px;
+    margin: 0;
+    
+}
+
+.pesquisa{
+    text-decoration: none;
+    background-color: #fff;
+    align-items: center;
+    margin-left: 150px;
+    width: 400px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.conteudo-menu {
+    display: flex;
+    gap: 1rem;
+    font-size: 22px;
+}
+
+.conteudo-menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.conteudo-menu a:hover{
+    color: #323131;
+}
+
+
+/* Conteudo clicavel para ver mais opções */
+
+.conteudo-coffe {
+    background-image: url('../assets/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  
+}
+
+.conteudo-coffe h2 {
+    color: #fff;
+    font-size: 72px;
+}
+
+.conteudo-coffe p {
+    color: #fff;
+    font-size: 22px;
+}
+
+
+.btn {
+    padding: 10px 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.btn :hover{
+  background-color: #fff;
+  color: #252525;
+}
+
+.btn-dark {
+    background-color: #fff;
+    border: 2px solid #252525;
+    color: #252525;
+    transition: 0.6s;
+}
+
+.btn-dark:hover{
+    background-color: #252525;
+    color: #fff;
+}
+
+/* Estilo para os serviços */
+
+
+.conteudo-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;    
+}
+
+.servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicos-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 30%;
+    padding: 0 1rem;
+    text-align: center;
+    
+}
+
+.servicos-item img{
+    transition: 0.3s ease;
+}
+
+.servicos-item :hover{
+    transform: scale(1.2);
+}
+
+/* Estilo do conteudo historia */
+
+.conteudo-historia{
+    display: flex;
+    height: 500px;
+}
+
+.conteudo-imagem{
+    background-image: url(../assets/history.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 1.9s ease-in;
+}
+
+.conteudo-imagem :hover{
+    transform: scale(5.2);
+}
+
+.conteudo-imagem , .conteudo-texto{
+    width: 50%;
+}
+
+
+
+.conteudo-texto{
+    background-color: #252525;
+    padding: 50px;
+}
+
+.conteudo-texto h2{
+    color: #fff;
+}
+
+.conteuto-texho h2, .conteudo-texto p{
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Estilo para os inputs de contato */
+
+.contatos{
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.contatos h2{
+    text-align: center;
+}
+
+.contatos span{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contatos input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+}
+
+.contatos textarea{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.final-footer{
+    background-color: #252525;
+    text-align: center;
+    color: #Fff;
+    padding: 20px 0;
+    
+}
+
+#btn-entrar{
+    display: flexbox;
+}
